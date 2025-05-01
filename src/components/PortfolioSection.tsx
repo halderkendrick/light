@@ -76,6 +76,20 @@ const portfolioItems = [
     image: "https://images.unsplash.com/photo-1585683040033-f5f7c3022ad1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     featured: false
   },
+  {
+    id: 9,
+    title: "Web Development Project",
+    category: "programming",
+    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    featured: true
+  },
+  {
+    id: 10,
+    title: "Mobile App Interface",
+    category: "development",
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    featured: false
+  },
 ];
 
 const PortfolioSection = () => {
