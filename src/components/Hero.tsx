@@ -3,12 +3,22 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="bg-gray-100 py-20">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="w-full md:w-1/2 mb-10 md:mb-0">
+    <section className="relative">
+      {/* Full-width banner image */}
+      <div className="w-full h-[500px] overflow-hidden">
+        <img 
+          src="/lovable-uploads/0d2f1542-3bc6-4e7c-b3db-4c8337bf0505.png" 
+          alt="Portrait Banner" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      
+      {/* Content overlay */}
+      <div className="absolute inset-0 flex items-center">
+        <div className="container mx-auto px-6">
+          <div className="max-w-lg bg-white/80 backdrop-blur-sm p-8 rounded-lg">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">I AM LIGHT</h1>
-            <p className="text-gray-600 mb-6 max-w-lg">
+            <p className="text-gray-600 mb-6">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt mollit, proident laborum voluptatum sequat quft distributor quis tempor amet.
             </p>
             <Link 
@@ -17,13 +27,6 @@ const Hero = () => {
             >
               Contact Me <span className="ml-2">→</span>
             </Link>
-          </div>
-          <div className="w-full md:w-1/2">
-            <img 
-              src="/lovable-uploads/c0c9740b-1243-493d-b41f-b84da4aa0da3.png" 
-              alt="Portfolio Hero" 
-              className="w-full h-auto"
-            />
           </div>
         </div>
       </div>
