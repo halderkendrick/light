@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -73,7 +72,7 @@ const portfolioItems = [
     id: 8,
     title: "Product Packaging",
     category: "programming",
-    image: "https://images.unsplash.com/photo-1585683040033-f5f7c3022ad1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     featured: false
   },
   {
