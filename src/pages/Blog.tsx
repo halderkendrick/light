@@ -13,7 +13,8 @@ const Blog = () => {
             <img 
               src="/lovable-uploads/0d2f1542-3bc6-4e7c-b3db-4c8337bf0505.png" 
               alt="Blog Banner" 
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover object-center md:object-[center_center]"
+              style={{ objectPosition: '50% 30%' }}
             />
           </div>
           <div className="absolute inset-0 flex items-center">
