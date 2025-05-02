@@ -9,11 +9,13 @@ const Portfolio = () => {
       <Navbar />
       <main className="flex-grow">
         <section className="relative h-[300px]">
-          <img 
-            src="/lovable-uploads/0d2f1542-3bc6-4e7c-b3db-4c8337bf0505.png" 
-            alt="Portfolio Banner" 
-            className="w-full h-full object-cover"
-          />
+          <div className="w-full h-full overflow-hidden">
+            <img 
+              src="/lovable-uploads/0d2f1542-3bc6-4e7c-b3db-4c8337bf0505.png" 
+              alt="Portfolio Banner" 
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
           <div className="absolute inset-0 flex items-center">
             <div className="container mx-auto px-6">
               <div className="max-w-lg bg-white/80 backdrop-blur-sm p-8 rounded-lg">

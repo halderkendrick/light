@@ -9,7 +9,7 @@ const Hero = () => {
         <img 
           src="/lovable-uploads/0d2f1542-3bc6-4e7c-b3db-4c8337bf0505.png" 
           alt="Portrait Banner" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
       </div>
       
